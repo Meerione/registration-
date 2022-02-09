@@ -139,6 +139,10 @@ a{
     margin: 0 128px 48px 128px;
 }
 
+::placeholder {
+    color: #141414;
+}
+
 
 
 
