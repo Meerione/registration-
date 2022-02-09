@@ -70,13 +70,13 @@ h1{
 }
 
 .main{
-
+    /*width: 200px;*/
     height: 48px;
-    border: 2px solid #AEAEAE;
     border-radius: 8px;
     font-size: 14px;
     padding-left: 16px;
     opacity: 0.5;
+    border: 0.5px solid #AEAEAE;
     }
 .address{
     width: 408px;
@@ -96,6 +96,8 @@ h1{
 
 .passport{
     margin: 0;
+    font-size: 14px;
+    line-height: 18px;
 }
 
 .first{
@@ -106,3 +108,18 @@ h1{
     height: 48px;
 }
 
+.knopka1{
+    width: 384px;
+    height: 48px;
+    background: #232529;
+    border-radius: 4px;
+    margin: 40px 140px;
+}
+
+.link1{
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    font-size: 20px;
+    line-height: 25px;
+    text-decoration: none;
+}
