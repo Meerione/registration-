@@ -1,3 +1,5 @@
+@import url('http://fonts.cdnfonts.com/css/sofia-pro');
+
 body{
     width: 1440px;
     height: 1024px;
@@ -75,5 +77,68 @@ a{
     height: 328px;
     background: #FFFFFF;
     border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
+
+.code{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    margin: 40px 0 8px 0;
+}
+
+.sms{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #A9A9A9;
+    margin: 0 0 40px 0 ;
+
+}
+
+.square{
+    display: flex;
+    gap: 8px;
+}
+
+.three{
+    width: 48px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 0.5px solid #DADADA;
+    box-sizing: border-box;
+    border-radius: 12px;
+    font-family: 'Sofia Pro', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #141414;
+    margin-bottom: 40px;
+    padding-left: 16px;
+}
+
+.next2{
+    width: 384px;
+    height: 48px;
+    background: #232529;
+    border-radius: 4px;
+    margin: 0 128px 48px 128px;
+}
+
+
+
 
