@@ -70,3 +70,10 @@ a{
     text-decoration: none;
 }
 
+.content-2{
+    width: 640px;
+    height: 328px;
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+
