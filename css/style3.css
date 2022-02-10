@@ -151,6 +151,13 @@ a{
     height: 328px;
     background: #FFFFFF;
     border-radius: 4px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.application{
+
 }
 
 
