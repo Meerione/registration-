@@ -154,9 +154,45 @@ a{
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin: 0;
 }
 
 .application{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    padding-top: 40px;
+    padding-bottom: 8px;
+    margin: 0;
+}
+
+.time{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #A9A9A9;
+    margin-bottom: 16px;
+}
+.next3{
+    width: 384px;
+    height: 48px;
+    background: #232529;
+    border-radius: 4px;
+    margin-top: 32px;
+}
+
+.ok{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
 
 }
 
