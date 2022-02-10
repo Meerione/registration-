@@ -15,13 +15,13 @@ body{
     padding: 40px 24px 0 24px;
 }
 h1{
-    height: 24px;
-    width: 478px;
     border-radius: 0;
     font-size: 16px;
     line-height: 20px;
     text-align: left;
     margin-left: -4px;
+    margin-top: 0;
+    margin-bottom: 24px;
 }
 .block1{
     display: flex;
@@ -44,7 +44,7 @@ h1{
     width: 200px;
 }
 
-.home4 {
+.home4  {
     width: 304px;
 }
 .home3{
@@ -52,12 +52,10 @@ h1{
 }
 .box2{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 8px;
+    flex-direction: column;
 }
 .job{
-    height: 48px;
+
     border: 2px solid lightgray;
     border-radius: 8px;
     font-size: 14px;
@@ -66,25 +64,32 @@ h1{
 }
 
 .job1{
-    width: 625px;
+    width: 641px;
+    height: 48px;
 }
 .job2{
-    width: 200px;
+    width: 189px;
+    height: 48px;
 }
 .job3{
-    width: 200px;
+    width: 189px;
+    height: 48px;
 }
 .job4{
-    width: 200px;
+    width: 189px;
+    height: 48px;
 }
-.job5{
-    width: 200px;
+#job5{
+    width: 212px;
+    height: 48px;
 }
 .job6{
     width: 200px;
+    height: 48px;
 }
 .job7{
-    width:625px;
+    width: 641px;
+    height: 48px;
 }
 button{
     width: 384px;
@@ -100,4 +105,16 @@ button{
 .saite2{
     text-decoration: none;
     color: white;
+}
+
+button{
+    border-radius: 4px;
+}
+
+.box3{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 12px;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }

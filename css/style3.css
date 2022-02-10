@@ -139,7 +139,10 @@ a{
     margin: 0 128px 48px 128px;
 }
 
-::placeholder {
+.number ::placeholder {
+    color: rgba(0, 0, 0, 0.25);
+}
+.square ::placeholder {
     color: #141414;
 }
 
